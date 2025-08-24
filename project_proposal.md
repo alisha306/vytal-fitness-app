@@ -1,8 +1,8 @@
-a) Project Background
+a) Project Background:
 In today’s digital age, health and wellness have become a growing priority among individuals (Holdsworth 2019). However, most fitness apps either require expensive subscriptions or rely on generalized content that doesn’t meet personalized fitness goals. Many users also find it challenging to integrate personalized workout routines, lifestyle guidance, and fitness product recommendations in one convenient solution.
 The group wants to develop a fitness driven mobile application named Vytal.AI. It is going to be a smart fitness companion app for mobile devices that uses generative AI to provide users with personalized 7-day workout plans and nutrition or wellness advice, based on their fitness goals. Moreover, the goal is also to integrate a mode of financial model through the positioning of affiliated fitness products that the users can browse, gain knowledge about and also purchase from.
 The final goal is to produce a mobile app that is hybrid in nature and hence can be run both on Android and iOS and also has enriching and useful UI for performing all the necessary operations (Presa Käld and Svensson 2021).
-b) Project Objective
+b) Project Objective:
 As mentioned, an AI enabled mobile app named Vytal.AI to help individuals achieve their fitness goals through personalized, AI-assisted plans and recommendations, while offering a seamless experience for discovering useful fitness equipment.
 Key Objectives
 Some of the major objectives that are considered while planning the Vytal.AI mobile application are as follows:
@@ -26,7 +26,7 @@ Based on the objectives set previously, the app is meant to consist of the follo
 o	Name, Category, Image, Description, Price, Affiliate Buy Link
 ●	Search and Filter for Products
 ●	Fully local app, that is can be run without hosting the services on any online or cloud-based server
-c) High-Level User Requirements
+c) High-Level User Requirements:
 ●	As a new user, I want to register with my email and password
 ●	As a registered user, I want to log in to access my personalized fitness features
 ●	As a logged in user, I want to enter my fitness goal and available time to generate a custom workout plan
@@ -37,7 +37,7 @@ c) High-Level User Requirements
 ●	As a logged in user, I want to see product name, image, price, and description
 ●	As a logged in user, I want to click on a product and open a buy link in browser
 ●	As a logged in user, I want the app to look visually appealing and provide all details with an adequate balance of text and graphical elements.
-d) High-Level System Requirements
+d) High-Level System Requirements:
 Hardware & Software Requirements
 Component	Requirement / Purpose
 User Device	Smartphone with 2GB+ RAM, Android 10+ or iOS 12+ – for running the Vytal.AI mobile app
@@ -50,13 +50,13 @@ SQLite	May be used for lightweight offline caching of AI outputs or product data
 Cohere API	Gen-AI model that can generates personalized workout plans and lifestyle advice based on user input
 Android Emulator / iOS Simulator	Required for local testing of app features during development
 
-Network and Protocols
+Network and Protocols:
 ●	HTTPS – Ensures all communication with Cohere API is encrypted and secure
 ●	Localhost (127.0.0.1) – Used for development server calls during testing (e.g., for the proxy backend)
 ●	No external hosting required – All app logic runs locally except Cohere API calls, ensuring ease of deployment and low cost
 
-e) Risk Management and Quality Assurance Plans
-Risk Management Matrix
+e) Risk Management and Quality Assurance Plans:
+Risk Management Matrix:
 Risk Item	Likelihood	Impact	Mitigation Strategy
 AI API limit exceeded	Medium	Medium	Create alternate free accounts or use fallback text suggestions
 Network failure during API call	Medium	Low	Add error handler with retry or offline message
@@ -67,7 +67,7 @@ Inconsistent AI responses	Medium	Medium	Use structured prompts and limit token o
 Product data not displaying	Low	Medium	Pre-validate product fields before rendering on the interface
 Unauthorized user access	Low	High	Add hashed passwords and sanitize all user inputs to prevent security issues
 
-Quality Assurance Plan
+Quality Assurance Plan:
 In order to ensure that the application follows the necessary quality expectations of the team and the market standards, the following steps are to be taken:
 ●	Validate all user requirements through functional test cases
 ●	Use unit testing for login, input forms, and product rendering
@@ -77,15 +77,15 @@ In order to ensure that the application follows the necessary quality expectatio
 ●	Use test cases for API errors, including timeout, no response, malformed prompt
 ●	Conduct UI/UX walkthroughs to assess usability
 ●	Regular code reviews to ensure maintainability and best practices
-f) Team Work Schedule
+f) Team Work Schedule:
  
  
 
 The above work schedule highlights all the stages of the app development process and showcases the effort divisions between each member of the team. The legend attached show the task division among the four members.
-g) Conclusion
+g) Conclusion:
 Vytal.AI is a smart, AI-powered mobile app designed to assist users with fitness planning, lifestyle guidance, and curated product discovery. The application will be fully functional prototypical version, developed using React Native and MySQL, and will provide a clean, modern experience. It delivers high value to individual users, with potential for affiliate monetization and commercial expansion for the organization as well.
  
-References
+References:
 Gaffney, K.P., Prammer, M., Brasfield, L., Hipp, D.R., Kennedy, D. and Patel, J.M., 2022. SQLite: past, present, and future. Proceedings of the VLDB Endowment, 15(12).
 Holdsworth, M.A., 2019. Health, wellness and wellbeing. Revue Interventions économiques. Papers in Political Economy, (62).
 Presa Käld, M. and Svensson, O., 2021. React Native and native application development: A comparative study based on features & functionality when measuring performance in hybrid and native applications.
